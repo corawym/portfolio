@@ -418,9 +418,33 @@
 
 /* Below are the styles for homapp */
 .homapp{
-    background-color: #eaeaea;
+    background-color: #F3F3F3;
     height: 100vh;
 }
 .homapp .project-info a:hover{
     color: #3d80b4;
+}
+.homapp-cover{
+    width: 90%;
+    max-width: 900px;
+}
+.homapp-userflow{
+    width: 90%;
+    max-width: 750px;
+}
+.homapp-mls{
+    width: 95%;
+    max-width: 950px;
+}
+.homapp-new-design{
+    background-color: #F3F3F3;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+.homapp-image-mobile{
+    height: 400px;
+    display: inline-block;
+    margin: 1rem;
 }
