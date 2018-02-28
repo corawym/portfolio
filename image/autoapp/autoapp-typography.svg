@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 950 400" style="enable-background:new 0 0 950 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#C6C6CC;}
+	.st2{font-family:'SFUIText-Light';}
+	.st3{font-size:150px;}
+	.st4{font-family:'SFUIText-Regular';}
+	.st5{font-size:48px;}
+	.st6{font-family:'SFUIText-Bold';}
+	.st7{fill:#00395F;}
+	.st8{fill:#6D6E71;}
+	.st9{fill:#D93642;}
+	.st10{fill:#C7C7CC;}
+	.st11{fill:#007AFF;}
+	.st12{fill:#8F8F94;}
+	.st13{fill:#88888D;}
+	.st14{fill:#FFCC05;}
+	.st15{fill:#F2F2F2;}
+</style>
+<rect x="0" y="99.7" class="st0" width="950" height="144.3"/>
+<text transform="matrix(1 0 0 1 117.0288 209.9617)" class="st1 st2 st3">SF UI Text</text>
+<rect x="365" y="285.7" class="st0" width="222" height="144.3"/>
+<text transform="matrix(1 0 0 1 389.4805 320.9558)" class="st1 st4 st5">Regular</text>
+<rect x="127" y="285.7" class="st0" width="222" height="144.3"/>
+<text transform="matrix(1 0 0 1 181.6445 320.9558)" class="st1 st2 st5">Light</text>
+<rect x="605" y="285.7" class="st0" width="222" height="144.3"/>
+<text transform="matrix(1 0 0 1 661.7891 321.3777)" class="st1 st6 st5">Bold</text>
+</svg>

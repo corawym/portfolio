@@ -137,10 +137,10 @@
     max-width: 450px;
 }
 
-.echo .button:hover{
+/* .echo .button:hover{
     color: #3C898E;
     border-color: #3C898E;
-}
+} */
 .echo .project-info a:hover{
     color: #3C898E;
 }
@@ -205,6 +205,10 @@
     .evr .evr-desktop-home-image{
         width: 70%;
     }
+}
+
+.evr .project-info a:hover{
+    color: red;
 }
 
 .font-white{
@@ -284,7 +288,9 @@
         padding: 0;
     }
 }
-
+.mb .project-info a:hover{
+    color: orange;
+}
 .mb-article-image{
     width: 100%;
     height: auto;
@@ -309,6 +315,9 @@
 .autoapp-cover{
     width: 90%;
     max-width: 700px;
+}
+.autoapp .project-info a:hover{
+    color: #3d80b4;
 }
 .autoapp-appicon{
     margin-top: 3rem;
@@ -336,9 +345,82 @@
 .autoapp-image-full{
     width: 100%;
 }
+.autoapp-typo, .autoapp-colors{
+    width: 80%;
+    max-width: 700px; 
+}
+.autoapp-colors{
+    width: 90%;
+    max-width: 750px; 
+}
+.autoapp-screens{
+    height: 350px;
+    display: inline-block;
+    margin: 1rem;
+}
 .autoapp-process{
     background-color: #F3F3F3;
     padding-top: 5rem;
     padding-bottom: 5rem;
     margin-top: 0; 
+}
+
+
+/* Below are the styles for redence */
+.redence{
+    background-color: #e2231a;
+    height: 100vh;
+}
+.redence-cover{
+    width: 90%;
+    max-width: 700px;
+}
+.redence.project-info a:hover{
+    color: #e2231a;
+}
+.redence .project-title{
+    color: white;
+}
+.redence .project-section-description{
+    text-align: left;
+}
+.redence-name-image{
+    width: 90%;
+    max-width: 700px;
+}
+.redence-teacher{
+    background-color: #F3F3F3;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+.redence-image-desktop{
+    width: 90%;
+    max-width: 950px;
+}
+.redence-image-mobile{
+    height: 400px;
+    display: inline-block;
+    margin: 1rem;
+}
+.redence-login{
+    background-color: #F3F3F3;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+.redence-image-process{
+    width: 90%;
+    max-width: 700px;
+}
+
+/* Below are the styles for homapp */
+.homapp{
+    background-color: #eaeaea;
+    height: 100vh;
+}
+.homapp .project-info a:hover{
+    color: #3d80b4;
 }
