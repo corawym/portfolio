@@ -448,3 +448,42 @@
     display: inline-block;
     margin: 1rem;
 }
+
+/* Below are the styles for vancoolver. */
+.vancoolver{
+    background-color: #f05123;
+    height: 100vh;
+}
+.vancoolver .project-title{
+    color: white;
+}
+.vancoolver .project-info a:hover{
+    color: #f05123;
+}
+.vancoolver-cover{
+    width: 100%;
+    max-width: 900px;
+}
+.vancoolver-image-intro{
+    width: 95%;
+    max-width: 950px;
+}
+.vancoolver-icons{
+    width: 95%;
+    max-width: 700px;
+}
+
+/* Below are the styles for smart select. */
+.ss-logo{
+    width: 60%;
+    max-width: 300px;
+}
+.ss-issuu{
+    width: 90%;
+    max-width: 750px;
+}
+.ss-page-image{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+}

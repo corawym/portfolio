@@ -1,18 +1,8 @@
-// var navElement = document.getElementById("main-nav");
-// var coverButton = document.getElementById("cover-arrow");
-// var navProjectsButton = document.getElementById("nav-projects");
-// var navAboutButton = document.getElementById("nav-about");
-// var aboutContactMeButton = document.getElementById("about-contact-me");
-// var projectReadMoreButton = document.getElementById("project-read-more");
+var navElement = document.getElementById("main-nav");
 
 (function($){
 
     window.addEventListener("scroll", checkScrollPos);
-    
-
-    // coverButton.onclick = function (event) {
-    //     scrollToAnimation(event, "#projects");
-    // }
 
     $("#cover-arrow").on(
         "click", 
@@ -36,17 +26,9 @@
         {element: "#contact"},
         scrollToAnimation
     );
-    // $("#project-read-more").on(
-    //     "click", 
-    //     {element: "#project-content"},
-    //     scrollToAnimation
-    // )
+
     
 })(jQuery);
-
-// document.addEventListener("DOMContentLoaded", function() {
-    
-// });
 
 
 function scrollToAnimation (event) {
