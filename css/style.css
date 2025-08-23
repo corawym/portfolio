@@ -47,8 +47,8 @@ ul{
     --bg-light: var(--brown-shade-1);
     --bg-mid: var(--brown-shade-2);
     --bg-dark: var(--brown-shade-6);
-    --text-mid: var(--light);
-    --text-mid: var(--brown-shade-3);
+    --text-light: var(--brown-shade-3);
+    --text-mid: var(--brown-shade-5);
     --text-dark: var(--brown-shade-7);
     --button-text: var(--brown-shade-5);
 }
@@ -123,6 +123,30 @@ ul{
 .button:hover{
     color: #9dcbe4;
     border-color: #9dcbe4;
+}
+
+.brown-light{
+    color: var(--text-light);
+}
+
+.brown-mid{
+    color: var(--text-mid);
+}
+
+.brown-dark{
+    color: var(--text-dark);
+}
+
+.bg-brown-light{
+    background-color: var(--bg-light);
+}
+
+.bg-brown-mid{
+    background-color: var(--bg-mid);
+}
+
+.bg-brown-dark{
+    background-color: var(--bg-dark);
 }
 
 /* Below are the nav styles. */
@@ -212,7 +236,6 @@ nav{
 }
 .cover-is-a{
     font-size: 1.5rem;
-    color: var(--text-mid);
 }
 .cover-job-container{
     overflow: hidden;
@@ -220,7 +243,7 @@ nav{
     margin: 3rem 0;
 }
 .cover-job-list{
-    color: var(--text-dark);
+    color: var(--text-mid);
     padding-left: 0;
     list-style: none;
     margin-top: 0;
