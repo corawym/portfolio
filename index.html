@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cora Wong | Portfolio</title>
     <link href="./css/normalize.css" rel="stylesheet" type="text/css" >
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/base.css" rel="stylesheet">
+    <link href="./css/layout.css" rel="stylesheet">
+    <link href="./css/pages/home.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
 </head>
@@ -22,20 +24,19 @@
                 <a href="#projects" id="nav-projects" class="nav-text uppercase nav-display">Projects</a>
                 <a href="#about" id="nav-about" class="nav-text uppercase nav-display">About</a>
                 <a href="https://github.com/corawym" target="_blank">
-                    <img src="./image/social-github.svg" alt="Github icon" class="nav-icon nav-icon-github">
+                    <img src="./image/social-github-brown.svg" alt="Github icon" class="nav-icon nav-icon-github">
                 </a>
                 <a href="https://www.linkedin.com/in/cora-yimmui-wong/" target="_blank">
-                    <img src="./image/social-linkedin.svg" alt="Linkedin icon" class="nav-icon">
+                    <img src="./image/social-linkedin-brown.svg" alt="Linkedin icon" class="nav-icon">
                 </a>
             </div>
         </div>
     </nav>
 
     <!-- Below is cover section. -->
-    <section id="cover" class="container-full-width cover display-flex flex-center-center">
-
+    <section id="cover" class="section container-full-width cover flex flex-center-center">
         <img src="./image/logo-cora-wong-brown.svg" alt="Logo of Cora Wong" class="cover-logo"/>
-        <div class="cover-content uppercase">
+        <div class="text-center uppercase">
             <h2 class="cover-is-a brown-light">is a</h2>
             <div class="cover-job-container">
                 <ul class="cover-job-list brown-mid">
@@ -46,7 +47,6 @@
                 </ul>
             </div>  
         </div>
-
         <a id="cover-arrow" href="#projects">
             <div class="cover-arrow">
                 <div class="round">
@@ -57,16 +57,13 @@
                 </div>
             </div>
         </a>
-        
     </section>
 
     <!-- Below is project section. -->
-    <section id="projects" class="projects bg-brown-light">
+    <section id="projects" class="section projects bg-brown-light">
         <div class="container-full-width container-max-width">
-            <h2 class="section-title brown-mid">Projects.</h2>
-    
-            <div class="projects-image-container display-flex">
-                
+            <h2 class="section-title brown-mid">Projects</h2>
+            <div class="projects-image-container flex">  
                 <div class="projects-item">
                     <a href="echo.html">
                         <img src="./image/project-echo-cover.jpg" alt="A picture of Echo app"/>
@@ -74,7 +71,6 @@
                         <p class="projects-tech">App development, React native</p>
                     </a>
                 </div>
-                
                 <div class="projects-item">
                     <a href="east-van-roasters.html">
                         <img src="./image/project-evr-cover.jpg" alt="A picture of East Van Roasters"/>
@@ -82,7 +78,6 @@
                         <p class="projects-tech">Responsive website, Wordpress</p>
                     </a>
                 </div>
-
                 <div class="projects-item">
                     <a href="redence.html">
                         <img src="./image/project-redence-cover.jpg" alt="A picture of Redence"/>
@@ -90,7 +85,6 @@
                         <p class="projects-tech">Web application, Meteor</p>
                     </a>
                 </div>
-
                 <div class="projects-item">
                     <a href="homapp.html">
                         <img src="./image/project-homapp-cover.jpg" alt="A picture of Homapp app"/>
@@ -98,16 +92,13 @@
                         <p class="projects-tech">UX/UI design, ios/android</p>
                     </a>
                 </div>
-
                 <div class="projects-item">
                     <a href="autoapp.html">
                         <img src="./image/project-autoapp-cover.jpg" alt="A picture of Autoapp.ca app"/>
                         <p class="projects-name">Autoapp.ca</p>
                         <p class="projects-tech">UX/UI design, ios/android</p>
                     </a>
-                    
                 </div>
-
                 <div class="projects-item">
                     <a href="vancoolver.html">
                         <img src="./image/project-vancoolver-cover.jpg" alt="A picture of Vancoolver app"/>
@@ -115,7 +106,6 @@
                         <p class="projects-tech">UX/UI design, ios/android</p>
                     </a>
                 </div>
-
                 <div class="projects-item">
                     <a href="mb.html">
                         <img src="./image/project-mb-cover.jpg" alt="A picture of mb. My Book"/>
@@ -123,7 +113,6 @@
                         <p class="projects-tech">Graphic design, Magazine</p>
                     </a>     
                 </div>
-
                 <div class="projects-item">
                     <a href="smart-select.html">
                         <img src="./image/project-smartselect-cover.jpg" alt="A picture of Smart Select"/>
@@ -131,38 +120,19 @@
                         <p class="projects-tech">Graphic design, Magazine</p>
                     </a>
                 </div>
-
-                <!-- nood -->
-
-                <!-- <div class="projects-item">
-                    <img src="" alt="A picture of New Ant Lion"/>
-                    <p class="projects-name">New Ant Lion</p>
-                    <p class="projects-tech">Game design, Mobile game</p>
-                </div> -->
-                
-                <!-- safe trucking -->
-                <!-- minecraft -->
-
-                <!-- Racing B -->
-
-                <!-- comport -->
-
             </div>
-            
         </div> 
     </section>
 
     <!-- Below is about section. -->
-    <section id="about" class="about">
+    <section id="about" class="section about bg-brown-mid">
         <div class="container-full-width container-max-width">
-            <h2 class="section-title">About.</h2>
-
+            <h2 class="section-title">About</h2>
             <div class="about-intro">
                 <p class="about-intro-text">I'm Cora Yim Mui Wong, a Front-end Developer from Vancouver, Canada. 
                     I am also a UX/UI Designer and Graphic Designer.</p>
                 <p class="about-intro-text">I love technology and see my imagination come to life.
                     I enjoy creating a great user experience and making people life easy.</p>
-
                 <div id="about-contact-me" class="button-container">
                     <a href="#contact" class="button">Contact me</a>
                 </div>                        
@@ -172,10 +142,10 @@
     </section>
 
     <!-- Below is skills section. -->
-    <section class="skills">
+    <section class="skills bg-brown-light">
         <div class="container-max-width">
-            <h2 class="section-title">Skills.</h2>
-            <div class="skills-items-container display-flex">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-items-container flex">
                 <div class="skills-item">
                     <img src="./image/skill-coding.svg" alt="Web & App development icon" class="skill-icon">
                     <h4>Web & App Development</h4>
@@ -239,12 +209,11 @@
     </section>
 
     <!-- Below is experience section. -->
-    <section class="experience">
+    <section class="section experience bg-brown-mid">
         <div class="container-max-width">
-            <h2 class="section-title">Experience.</h2>
-
+            <h2 class="section-title">Experience</h2>
             <div class="experience-timeline-container">
-    
+
                 <div class="timeline-blocks">
                     <div class="timeline-img">
                         <img src="./image/experience-coding.svg" alt="Coding icon">
@@ -401,10 +370,9 @@
     </section>
 
     <!-- Below is footer section. -->
-    <footer id="contact" class="footer">
+    <footer id="contact" class="footer bg-brown-dark">
         <div class="container-full-width container-max-width">
-            <h2 class="section-title">Contact.</h2>
-
+            <h2 class="section-title">Contact</h2>
             <div class="contact-wrapper">
                 <p class="contact-text">If you are interested in working with me on a project or have an idea you would just like to discuss.
                         Please don't hesitate to email me!</p>
@@ -412,26 +380,16 @@
                     <h3 class="contact-email">corawym@gmail.com</h3>
                 </a>
             </div>
-
             <div class="contact-icons">
                 <a href="https://github.com/corawym" target="_blank" class="contact-icon-wrapper">
-                    <img src="./image/social-github.svg" alt="Github icon">
+                    <img src="./image/social-github-brown.svg" alt="Github icon">
                     <p>GitHub</p>
                 </a>
                 <a href="https://www.linkedin.com/in/cora-yimmui-wong/" target="_blank" class="contact-icon-wrapper">
-                    <img src="./image/social-linkedin.svg" alt="Linkedin icon">
+                    <img src="./image/social-linkedin-brown.svg" alt="Linkedin icon">
                     <p>Linkedin</p>
                 </a>
-                <!-- <a href="https://www.youtube.com/channel/UCK7yDu9BvXJM45q-354KThg?view_as=subscriber" target="_blank" class="contact-icon-wrapper">
-                    <img src="./image/social-youtube.svg" alt="youtube icon">
-                    <p>YouTube</p>
-                </a> -->
-                <a href="https://vimeo.com/user25731096" target="_blank" class="contact-icon-wrapper">
-                    <img src="./image/social-vimeo.svg" alt="vimeo icon">
-                    <p>Vimeo</p>
-                </a> 
             </div>
-            
             <p class="footer-text">© Designed and Built by Cora Wong 2018. All Rights Reserved.</p>
         </div>
     </footer>

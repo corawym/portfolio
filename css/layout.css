@@ -1,0 +1,19 @@
+.row {
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.row .col {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 12px
+}
+
+.row .col.s1 {
+    width: 8.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
