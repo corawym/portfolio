@@ -1,0 +1,10 @@
+@import url('normalize.css');
+@import url('./_variables.css');
+@import url('./_base.css');
+@import url('./_layout.css');
+@import url('./_utilities.css');
+@import url('./_components.css');
+
+/* || Pages */
+@import url('pages/home.css');
+@import url('pages/projects.css');

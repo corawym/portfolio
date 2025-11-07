@@ -1,0 +1,93 @@
+/* || BUTTON */
+
+.button-container {
+    margin-top: var(--space-5);
+    margin-bottom: var(--space-5);
+}
+
+.button {
+    border: var(--color-text-primary) solid 1px;
+    color: var(--color-text-primary);
+    border-radius: 20px;
+    padding: var(--space-3) var(--space-4);
+    font-weight: var(--font-weight-bold);
+}
+
+.button:hover {
+    background-color: var(--color-accent);
+    color: var(--color-bg-primary-dark);
+}
+
+/* || NAV BAR */
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: var(--color-bg-primary-light);
+    width: 100%;
+    height: 60px;
+    padding: var(--space-4) var(--space-5);
+    transition: ease 0.5s;
+}
+
+.hide-nav {
+    opacity: 0;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container-left,
+.nav-container-right {
+    flex-basis: 50%;
+    align-self: center;
+}
+
+.nav-container-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-display {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-display {
+        display: inline-block;
+    }
+}
+
+.nav-logo {
+    width: 190px;
+}
+
+.nav-text {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-primary-light);
+    margin: 0 var(--space-4);
+    align-self: center;
+}
+
+.nav-text:hover,
+.nav-text:active {
+    color: var(--color-accent);
+}
+
+.nav-icon {
+    width: 25px;
+    filter: grayscale(80%);
+}
+
+.nav-icon-github {
+    margin: 0 var(--space-5) 0 var(--space-4);
+}
+
+.nav-icon:hover,
+.nav-icon:active {
+    filter: grayscale(0);
+}

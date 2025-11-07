@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  font-size: 100%; /* 16px by default */
+}
+
+body {
+    font-family: var(--font-main);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-primary-dark);
+    letter-spacing: var(--letter-spacing-base);
+    font-weight: var(--font-weight-light);
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: var(--font-size-base);
+    }
+}
+
+p {
+    font-family: var(--font-paragraph);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
