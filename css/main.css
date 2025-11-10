@@ -1,9 +1,9 @@
 @import url('normalize.css');
-@import url('./_variables.css');
-@import url('./_base.css');
-@import url('./_layout.css');
-@import url('./_utilities.css');
-@import url('./_components.css');
+@import url('variables.css');
+@import url('base.css');
+@import url('layout.css');
+@import url('utilities.css');
+@import url('components.css');
 
 /* || Pages */
 @import url('pages/home.css');
