@@ -31,7 +31,6 @@
     }
 
     .cover-job-list {
-        list-style: none;
         animation: Change 13s infinite;
     }
 
@@ -302,7 +301,6 @@
     }
 
     .skills-item ul {
-        list-style: none;
         text-align: center;
         padding-left: 0;
     }
