@@ -1,6 +1,6 @@
 :root {
 
-    /* || Colors */
+    /* || Colors || */
     --brown-shade-1: #fffdfa;
     --brown-shade-2: #f4efe6;
     --brown-shade-3: #a39781;
@@ -25,7 +25,7 @@
     --color-accent: var(--yellow-shade-2);
     --color-gray: var(--gray);
 
-    /* || Typography */
+    /* || Typography || */
     --font-main: 'Montserrat', sans-serif;
     --font-paragraph: 'Ubuntu', sans-serif;
 
@@ -50,7 +50,7 @@
     --letter-spacing-heading: 0.2rem;
     --letter-spacing-heading-lg: 0.5rem;
 
-    /* || Spacing */
+    /* || Spacing || */
     --space-1: 2px;
     --space-2: 4px;
     --space-3: 8px;
@@ -59,12 +59,12 @@
     --space-6: 64px;
     --space-7: 128px;
 
-    /* || Border Radius */
+    /* || Border Radius || */
     --radius-sm: 4px;
     --radius-md: 8px;
     --radius-lg: 16px;
 
-    /* || Breakpoints */
+    /* || Breakpoints || */
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 1024px;

@@ -1,4 +1,4 @@
-/* || BUTTON */
+/* || BUTTON || */
 
 .button-container {
     margin-top: var(--space-5);
@@ -18,7 +18,7 @@
     color: var(--color-bg-primary-dark);
 }
 
-/* || NAV BAR */
+/* || NAV BAR || */
 
 nav {
     position: fixed;
