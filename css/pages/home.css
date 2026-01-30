@@ -118,32 +118,7 @@
         transform: rotate(-225deg);
     }
 
-    @-webkit-keyframes Gradient {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-    }
-
-    @-moz-keyframes Gradient {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-    }
-
-    @keyframes Gradient {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-    }
-
-    @keyframes Change {
-        0%, 12.66%, 100% { transform: translate3d(0, 0, 0); }
-        16.66%, 29.32% { transform: translate3d(0, -25%, 0); }
-        33.32%,45.98% { transform: translate3d(0, -50%, 0); }
-        49.98%,62.64% { transform: translate3d(0, -75%, 0); }
-        66.64%,79.3% { transform: translate3d(0, -50%, 0); }
-        83.3%,95.96% { transform: translate3d(0, -25%, 0); }
-    }
+   
 
     /* || SECTION */
 
@@ -227,22 +202,6 @@
 
         .projects-name {
             color: var(--color-accent);
-        }
-    }
-
-    @keyframes FadeInImage { 
-        0% {
-        opacity: 0;
-        transform: scale(.1);
-        }
-    
-        85% {
-        opacity: 1;
-        transform: scale(1.05);
-        }
-
-        100% {
-            transform: scale(1);
         }
     }
 
@@ -461,5 +420,48 @@
         line-height: 1.2rem;
         padding-left: var(--space-5);
         padding-right: var(--space-5);
+    }
+}
+
+@-webkit-keyframes Gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@-moz-keyframes Gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes Gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes Change {
+    0%, 12.66%, 100% { transform: translate3d(0, 0, 0); }
+    16.66%, 29.32% { transform: translate3d(0, -25%, 0); }
+    33.32%,45.98% { transform: translate3d(0, -50%, 0); }
+    49.98%,62.64% { transform: translate3d(0, -75%, 0); }
+    66.64%,79.3% { transform: translate3d(0, -50%, 0); }
+    83.3%,95.96% { transform: translate3d(0, -25%, 0); }
+}
+
+@keyframes FadeInImage { 
+    0% {
+    opacity: 0;
+    transform: scale(.1);
+    }
+
+    85% {
+    opacity: 1;
+    transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
     }
 }
